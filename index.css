@@ -65,7 +65,7 @@
 }
 .reg-form-style input[type="button"]:hover, 
 .reg-form-style input[type="submit"]:hover {
-	background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+	background:linear-gradient(to bottom, #091E42 5%, #0f326f 100%);
 	background-color:#34CACA;
 }
 
