@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300">
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<title>Registration Form</title>
+</head>
+<body>
+	<div class="form-bg reg-form-style">
+		<h2>Registration Form</h2>
+		<form id="name" name="regForm" action="/" method="GET" onsubmit="return validateForm()">
+				<div><input id="firstname" type="text" name="firstname" placeholder="First Name"></div>
+				<div><input id="lastname" type="text" name="lastname" placeholder="Last Name"></div>
+				<p>Date of Birth: </p>
+				<div><input id="date" type="date" name="dob" placeholder="Date of Birth"></div>
+				<div><input id="number" type="text" name="postcode" placeholder="Postal Code"></div>
+				<div><input id="email" type="email" name="email" placeholder="Email Address"></div>
+				<div><input id="password" type="password" name="password" placeholder="Password"></div>
+				<div><input id="submit" type="submit" value="Submit Form"></div>	
+		</form>
+	</div>
+	<p class="footer"><a href="https://www.sigmanox.com/">Designed by Sigmanox NG</a></p>
+	<script src="index.js"></script>
+</body>
+</html>
